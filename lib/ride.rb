@@ -5,9 +5,10 @@ class Ride
                 :excitement
 
     def initialize(attributes)
-        @name = ride1[:name]
-        @min_height = ride1[:min_height] 
-        @admission_fee = ride1[:admission_fee]
-        @excitement = ride1[:excitement]
+        @name = attributes[:name]
+        @min_height = attributes[:min_height] 
+        @admission_fee = attributes[:admission_fee]
+        @excitement = attributes[:excitement]
+        # require 'pry'; binding.pry
     end
 end
