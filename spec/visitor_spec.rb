@@ -2,6 +2,8 @@ require './lib/visitor'
 
 RSpec.describe Visitor do
     before :all do
+        
+    end
         it 'exists' do
             visitor1 = Visitor.new('Bruce', 54, '$10')
             visitor2 = Visitor.new('Tucker', 36, '$5')
@@ -45,5 +47,4 @@ RSpec.describe Visitor do
         it 'has preferences' do
 
         end
-    end
 end
