@@ -19,7 +19,7 @@ class Visitor
         add_preference
     end
 
-    # def tall_enough?(visitor)
+    def tall_enough?(visitor)
 
-    # end
+    end
 end
