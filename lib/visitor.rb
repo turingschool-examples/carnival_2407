@@ -14,10 +14,7 @@ class Visitor
         # the preference isn't found, shovel it in
 
         @preferences.each do |preference|
-            # if @preferences.include?(preference) 
             preferences << preference
-            #else
-            # end
         end
     end
 
