@@ -16,6 +16,7 @@ class Visitor
         @preferences.each do |preference|
             preferences << preference
         end
+        add_preference
     end
 
     # def tall_enough?(visitor)

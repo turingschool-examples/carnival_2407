@@ -46,6 +46,7 @@ RSpec.describe Visitor do
 
         it 'has preferences' do
             visitor1 = Visitor.new('Bruce', 54, '$10')
+            preferences = Hash.new(0)
 
             expect(visitor1.preferences).to eq([])
         end
